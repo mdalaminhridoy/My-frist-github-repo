@@ -75,6 +75,7 @@
                   display: flex;
                   flex-wrap: wrap;
                   gap: 10px;
+                  box-shadow: 8px 8px 8px 8px;
                   
                
 
@@ -82,7 +83,7 @@
  
  .photo_1{
                width: 450px;
-               border: 1px solid;
+               
                height: 450px;
                background-image: url('./photo/anemi1.jpg');
                background-size: 250px;
@@ -90,11 +91,13 @@
                background-position: top;
 
               position: relative;
+
+              box-shadow: 2px 2px 2px 2px rgb(202, 177, 226);
  }
  
  .photo_2{
                width: 450px;
-               border: 1px solid;
+             
                height: 450px;
                background-image: url('./photo/anemi2.jpg');
                background-size: 250px;
@@ -102,13 +105,14 @@
                background-position: top;
 
                position: relative;
+               box-shadow: 2px 2px 2px 2px rgb(216, 187, 243);
 
               
  }
  
  .photo_3{
                width:  450px;
-               border: 1px solid;
+             
                height: 450px;
                background-image: url('./photo/anemi3.jpg');
                background-size: 250px;
@@ -116,12 +120,12 @@
                background-position: top;
                position: relative;
 
-              
+               box-shadow: 2px 2px 2px 2px rgb(192, 171, 211);
  }
  
  .photo_4{
                width: 450px;
-               border: 1px solid;
+         
                height: 450px;
                background-image: url('./photo/anemi5.jpg');
                background-size: 250px;
@@ -129,24 +133,26 @@
                background-position: top;
 
               position: relative;
+              box-shadow: 2px 2px 2px 2px rgb(204, 175, 232);
  }
  
  .photo_5{
                width: 450px;
-               border: 1px solid;
+             
                height: 450px;
                background-image: url('./photo/anemi6.jpg');
                background-size: 250px;
                background-repeat: no-repeat;
                background-position: top;
                position: relative;
+               box-shadow: 2px 2px 2px 2px rgb(211, 182, 238);
 
               
  }
  
  .photo_6{
                width:  450px;
-               border: 1px solid;
+            
                height:  450px;
                background-image: url('./photo/womn-2.jpg');
                background-size: 250px;
@@ -154,6 +160,7 @@
                background-position: top;
 
                position: relative;
+               box-shadow: 2px 2px 2px 2px rgb(214, 184, 243);
 
               
  }
@@ -165,10 +172,49 @@
 
 .red_part{
               position: absolute;
-              bottom: 0;
-              left: 150px; 
+              bottom: 20px;
+              left: 140px; 
 }
-.red_part p { color: white;}   
+
+.red_part button:hover{background-color: cornflowerblue;}
+  
 .red_part button{
                     padding: 8px 10px;
-}      
+                    font-weight: bold;
+                    text-align: center;
+                    border: none;
+}   
+
+/* second section */
+
+.second_section{  
+
+                  margin-top: 100px; 
+                  display: flex;
+                  width: 100%;
+                  gap: 50px;
+                  background-color: rgb(28, 28, 27);
+                  padding: 20px;
+
+                  
+}
+
+ .woman_photo{
+          margin-left: 200px;
+         width: 500px;
+}
+
+.woman_photo img{  width: 100%;
+                     height: 100%;}
+
+.paragraph_part{  margin-left: 300px;
+                  width: 450px;
+}
+
+.paragraph_part  p{ color: white;}
+
+
+.paragraph_part h1{ color: white;
+                   font-family: serif;
+                  font-weight: bold;
+                  text-align: center; }
